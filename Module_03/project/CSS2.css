@@ -1,0 +1,241 @@
+*{box-sizing: border-box;}
+a:visited{
+  color: black;
+}
+body{
+  background-color: beige;
+}
+h1{
+  align-self: center;
+  text-align: center;
+  font-weight: 500;
+}
+img.f{
+  float: center;
+  height: 200px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  overflow: hidden;
+  background-color: #b87333;
+  }
+nav a{
+  width: 100%;
+  font-size: 17px;
+  text-align: center, left;
+  padding: 25px 10px;
+  color: black;
+  font-weight: 400;
+  color: black;
+}
+nav a.hover{
+  background-color: black;
+  color: silver;
+}
+.active{
+  background-color: green;
+}
+footer{
+  overflow: hidden;
+  background-color: #b87333;
+  text-align: center, left;
+  }
+footer a{
+  padding: 2px;
+  color: black;
+  font-weight: 400;
+  color: black;
+  bottom: 0;
+  width: 100%;
+
+}
+footer a:hover{
+  background-color: black;
+  color: silver;
+}
+footer img{
+  float:right;
+}
+/* about_me page*/
+#cc{
+  display: block;
+  margin: 0 auto 0 auto;
+}
+figure{
+  width:200px;
+  padding: 3px;
+  border: 1px
+  solid #000000;
+}
+figcaption{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #8c8c8c;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*products page*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+#products td, #products th {
+  border: 1.5px solid;
+  padding: 4px;
+}
+#products tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#products th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: green;
+}
+.fin{
+  border-style: double;
+  width: 350px;
+  padding-left: +20px;
+  padding-right: +20px;
+  border-left: +10px;
+  border-right: +10px;
+  margin-left: +20px;
+  margin-right: +20px;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}*/
