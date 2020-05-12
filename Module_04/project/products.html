@@ -12,10 +12,10 @@
       <nav>
         <a href="Start.html">Home</a>
         <a class="active" href="products.html">Products</a>
-        <a href="video.html">Videos</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="about.html">About Us</a>
+        <a href="">Videos</a>
+        <a href="">Gallery</a>
+        <a href="">Contact Us</a>
+        <a href="">About Us</a>
         <a href="">donate</a>
       </nav>
     </body>
@@ -49,7 +49,6 @@
     <p><button>Add to Cart</button></p>
     </div>
 
-
     <div class="card">
     <img src=".\products\Frogs.jpg" alt="Frogs" style="width:100%">
     <h1>Frogs</h1>
@@ -57,8 +56,7 @@
     <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
     <p><button>Add to Cart</button></p>
     </div>
-
-
+	
     <div class="card">
     <img src=".\pics\coming_soon.png" alt="Cat" style="width:100%">
     <h1>Cat</h1>
@@ -206,42 +204,20 @@
     </div>
 
   </div>
-</div>
-
-    <?php
-  include '.\configs\sccrafts.php';
-  include '.\configs\opendb.php';
-
-  $sql= "SELECT Items, Type_of_wood, Pricing FROM products LIMIT 15";
-  $result = mysqli_query($conn, $sql);
-
-  if (mysqli_num_rows($result) > 0) {
-      // output data of each row
-      while($row = mysqli_fetch_assoc($result)) {
-          echo "Items: " . $row["Items"]. "<br>";
-          echo "Type_of_wood: " . $row["Type_of_wood"]. "<br>";
-          echo "Pricing: " . $row["Pricing"]. "<br><hr>";
-      }
-  } else {
-      echo "0 results";
-  }
-
-  mysqli_close($conn);
-
-  ?>
-  </div>
+	</div>
+		</div>
 
   <footer>
       <a href="Start.html">home</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="">Contact Us</a>
       <a class="active" href="products.html">Products</a>
-      <a href="about.html">About Us</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="video.html">Videos</a>
+      <a href="">About Us</a>
+      <a href="">Gallery</a>
+      <a href="">Videos</a>
       <a href="">donate</a>
       <a href="">affiliate links</a>
-      <a href="https://www.facebook.com/Building-with-Bob-529350004225836/?view_public_for=529350004225836" target="_blank"><img src=".\Icons\social-006-round_facebook.png" alt"" background-color="blue"/></a>
-      <a href="https://www.youtube.com/channel/UCyWCR8JWarAs6QO4xj0xpXw?view_as=subscriber" target="_blank"><img src=".\Icons\social-018-round_youtube.png" alt="" background-color="red"/></a>
-      <a href="https://twitter.com/buildingwithbo1" target="_blank"><img src=".\Icons\social-003-round_twitter.png" alt="" background-color="blue" /></a>
+      <a href="" target="_blank"><img src=".\Icons\social-006-round_facebook.png" alt"" background-color="blue"/></a>
+      <a href="" target="_blank"><img src=".\Icons\social-018-round_youtube.png" alt="" background-color="red"/></a>
+      <a href="" target="_blank"><img src=".\Icons\social-003-round_twitter.png" alt="" background-color="blue" /></a>
   </footer>
   </html>
